@@ -24,7 +24,7 @@ prelude_length = 24
 prelude_sticky_length = 14
 
 #a = gen_random_seq(300)
-a = read_dna_seq('genes/E130003G02Rik.txt')
+a = read_dna_seq('sequences/E130003G02Rik.txt')
 
 print('Settings:')
 print(f'  Default sticky end length: {sticky_length}')

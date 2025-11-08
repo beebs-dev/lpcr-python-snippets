@@ -24,7 +24,7 @@ prelude_sticky_length = 14
 gene = 'Gm16054'
 oligo_start_index = 500
 
-a = read_dna_seq(f'genes/{gene}.txt')
+a = read_dna_seq(f'sequences/{gene}.txt')
 
 print('Settings:')
 print(f'  Default sticky end length: {sticky_length}')
